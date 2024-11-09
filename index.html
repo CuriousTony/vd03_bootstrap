@@ -2,9 +2,152 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ООО "Рога и копыта"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+<nav class="navbar bg-dark" data-bs-theme="dark">
+    <div class="d-grid d-md-flex justify-content-md-end">
+        <a class="navbar-brand" href="#"> Рога и копыта</a>
+        <button type="button" class="btn btn-outline-warning">О компании</button>
+        <button type="button" class="btn btn-outline-warning">Контакты</button>
+        <button type="button" class="btn btn-outline-warning">Как проехать</button>
+        <button type="button" class="btn btn-outline-warning">Оставить запрос</button>
+        <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+        <button class="btn btn-outline-warning" type="submit">Поиск</button>
+        </form>
+    </div>
+</nav>
+<div style="max-width: 800px; margin: 0 auto;">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media/ears.jpg" class="d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Исключительно успешно дуем в уши</h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="media/pigs.jpg" class="d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Мечем бисер перед свиньями</h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="media/water (2).jpg" class="d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Профессионально толчем свою воду в Вашей ступе</h4>
+            </div>
+        </div>
+      </div>
+</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
 
+<div class="container-fluid">
+  <p class="fs-3 text-center">Наши сотрудники - наша гордость:</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-4 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="media/ekibastuz.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Промокашка</h5>
+          <p class="card-text">Обладает врожденной тягой к прекрасному. Например к перьям.</p>
+          <a href="#" class="btn btn-primary">Написать Промокашке</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="media/anti.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Виктор Палыч</h5>
+          <p class="card-text">Виктор Палыч прекрасен. Можно отдавать свои деньги без каких-либо колебаний..</p>
+          <a href="#" class="btn btn-primary">Отдать деньги</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="media/diimon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Дмитрий</h5>
+          <p class="card-text">Сотрудник года! Выбор директора! Мечта кадровика! Обязательность и исполнительность - его имя и фамилия.</p>
+          <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Инновационные подходы
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Профессиональное искусство исчезновения денег.</strong> Мы настолько виртуозны в этом деле,
+          что Ваши деньги даже не успеют сказать "до свидания". Обращаясь к нам, вы получаете уникальную возможность
+          лицезреть шоу иллюзий, наблюдая, как Ваши финансы растворяются в воздухе быстрее, чем Вы сможете произнести "шарашкина контора".
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Кураторство
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Персональный менеджер по созданию проблем.</strong> Каждому клиенту мы выделяем личного менеджера,
+          который с энтузиазмом возьмется за превращение вашей жизни в захватывающий квест. Пропавшие документы,
+          несуществующие услуги и внезапные трактовки контрактов – это лишь малая часть того, что мы можем предложить.
+          Кто не хочет немного адреналина в повседневной рутине?
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Гарантии
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Гарантированное отсутствие результата.</strong> Мы уверены, что никто не может гарантировать отсутствие
+          результата так, как это делаем мы. Зачем тратить деньги на то, что может принести пользу, когда можно инвестировать
+          в гарантированное ничего? Это как подписка на пустоту – ни забот, ни хлопот, только изысканная легкость бытия без лишнего груза.
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white p-4 mt-5">
+    <div class="container">
+        <p>Шлите Ваши деньги: horns&hoofs@gmail.com | Phone: +123 456 7890</p>
+        <p>Подписывайтесь на нас:</p>
+        <div class="d-flex flex-column align-items-start">
+            <a href="#" class="text-white mb-2">VK</a>
+            <a href="#" class="text-white mb-2">Telegram</a>
+            <a href="#" class="text-white">Rutube</a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
